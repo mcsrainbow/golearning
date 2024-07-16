@@ -6,7 +6,7 @@ import (
 
 func TestString(t *testing.T) {
 	var s string
-	t.Log(s) //初始化为默认零值“”
+	t.Log(s) //初始化为默认零值""
 	s = "hello"
 	t.Log(len(s))
 	//s[1] = '3' //string是不可变的byte slice
